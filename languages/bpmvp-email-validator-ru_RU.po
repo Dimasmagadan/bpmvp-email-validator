@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-06 16:59+0300\n"
-"PO-Revision-Date: 2016-01-06 17:03+0300\n"
+"POT-Creation-Date: 2016-01-27 13:29+0300\n"
+"PO-Revision-Date: 2016-01-27 13:31+0300\n"
 "Last-Translator: Test <test@test.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -13,135 +13,163 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-KeywordsList: __;_n;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: bp-mail-checker.php:17
+#: bpmvp-email-validator.php:17 bpmvp-email-validator.php:127
 msgid "Byteplant Email Validator"
 msgstr ""
 
-#: bp-mail-checker.php:27
+#: bpmvp-email-validator.php:27
 msgid "Email Validator options"
 msgstr "Настройки"
 
-#: bp-mail-checker.php:34
-msgid "API Key"
+#: bpmvp-email-validator.php:34
+msgid "API key"
 msgstr "Ключ API"
 
-#: bp-mail-checker.php:50
+#: bpmvp-email-validator.php:42
+msgid "Validate email on registration"
+msgstr "Проверять адрес при регистрации"
+
+#: bpmvp-email-validator.php:50
+msgid "Validate email for comments"
+msgstr "Проверять при добалении комментариев"
+
+#: bpmvp-email-validator.php:58
+msgid "Hook to is_email() function"
+msgstr "Добавить проверку в функцию is_email()"
+
+#: bpmvp-email-validator.php:105
 msgid ""
-"Please enter your API key. You can register for an API key here: <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">Byteplant Email Validator API</a>"
+"You can use <a href=\"http://www.email-validator.net\" target=\"_blank\">our "
+"service</a> to validate email addresses in real-time. The email address "
+"verification process includes these steps:<br>\n"
+"Syntax verification<br>\n"
+"DNS validation including MX record lookup<br>\n"
+"Disposable email address (DEA) detection<br>\n"
+"SMTP connectivity and availability checking<br>\n"
+"Temporary unavailability detection<br>\n"
+"Mailbox existence checking<br>\n"
+"Catch-All testing<br>\n"
+"Greylisting detection"
 msgstr ""
-"Пожалуйста, введите ваш ключ. Вы можете получить ключ на сайте <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">Byteplant Email Validator API</a>"
 
-#: bp-mail-checker.php:57
-msgid "Byteplant Email Validator"
+#: bpmvp-email-validator.php:117
+msgid ""
+"You can register for a <a href=\"http://www.email-validator.net/email-"
+"validation-online-api-get-free-trial.html\" target=\"_blank\">free API key</"
+"a> (limited to 100 address checks per month).<br>\n"
+"If you want to verify more than 100 addresses per month, please have a look "
+"at our pay-as-you-go pricing model and the <a href=\"http://www.email-"
+"validator.net/email-address-verification-pricing.html\" target=\"_blank"
+"\">subscription plan</a> we offer."
 msgstr ""
 
-#: bp-mail-checker.php:67
-msgid "Validate Email Address"
+#: bpmvp-email-validator.php:137
+msgid "Validate Single Email"
 msgstr "Проверить один адрес"
 
-#: bp-mail-checker.php:68
-msgid "Please enter an email address to validate."
+#: bpmvp-email-validator.php:138
+msgid "Use this section to validate single email adress"
 msgstr "Используйте этот раздел для проверки отдельных адресов"
 
-#: bp-mail-checker.php:72
-msgid "Email address to validate"
+#: bpmvp-email-validator.php:142
+msgid "Email to validate"
 msgstr "Адрес почты для проверки"
 
-#: bp-mail-checker.php:81
+#: bpmvp-email-validator.php:151
 msgid "Validate"
 msgstr "Проверить"
 
-#: bp-mail-checker.php:99
+#: bpmvp-email-validator.php:168
 msgid "OK - Valid Address"
 msgstr ""
 
-#: bp-mail-checker.php:100
+#: bpmvp-email-validator.php:169
 msgid "OK - Catch-All Active"
 msgstr ""
 
-#: bp-mail-checker.php:101
+#: bpmvp-email-validator.php:170
 msgid "OK - Catch-All Test Delayed"
 msgstr ""
 
-#: bp-mail-checker.php:103
+#: bpmvp-email-validator.php:172
 msgid "Local Address"
 msgstr ""
 
-#: bp-mail-checker.php:104
+#: bpmvp-email-validator.php:173
 msgid "IP Address Literal"
 msgstr ""
 
-#: bp-mail-checker.php:105
+#: bpmvp-email-validator.php:174
 msgid "Disposable Address"
 msgstr ""
 
-#: bp-mail-checker.php:106
+#: bpmvp-email-validator.php:175
 msgid "Role Address"
 msgstr ""
 
-#: bp-mail-checker.php:107 bp-mail-checker.php:117
+#: bpmvp-email-validator.php:176 bpmvp-email-validator.php:186
 msgid "Server Unavailable"
 msgstr ""
 
-#: bp-mail-checker.php:108 bp-mail-checker.php:118
+#: bpmvp-email-validator.php:177 bpmvp-email-validator.php:187
 msgid "Address Unavailable"
 msgstr ""
 
-#: bp-mail-checker.php:109
+#: bpmvp-email-validator.php:178
 msgid "Duplicate Address"
 msgstr ""
 
-#: bp-mail-checker.php:110
+#: bpmvp-email-validator.php:179
 msgid "Server Reject"
 msgstr ""
 
-#: bp-mail-checker.php:112
+#: bpmvp-email-validator.php:181
 msgid "Bad Address"
 msgstr ""
 
-#: bp-mail-checker.php:113
+#: bpmvp-email-validator.php:182
 msgid "Domain Not Fully Qualified"
 msgstr ""
 
-#: bp-mail-checker.php:114
+#: bpmvp-email-validator.php:183
 msgid "MX Lookup Error"
 msgstr ""
 
-#: bp-mail-checker.php:115
+#: bpmvp-email-validator.php:184
 msgid "No-Reply Address"
 msgstr ""
 
-#: bp-mail-checker.php:116
+#: bpmvp-email-validator.php:185
 msgid "Address Rejected"
 msgstr ""
 
-#: bp-mail-checker.php:119
+#: bpmvp-email-validator.php:188
 msgid "Domain Name Misspelled"
 msgstr ""
 
-#: bp-mail-checker.php:121
+#: bpmvp-email-validator.php:190
 msgid "Validation Delayed"
 msgstr ""
 
-#: bp-mail-checker.php:122
+#: bpmvp-email-validator.php:191
 msgid "Rate Limit Exceeded"
 msgstr "Превышен лимит"
 
-#: bp-mail-checker.php:123
+#: bpmvp-email-validator.php:192
 msgid "API Key Invalid or Depleted"
 msgstr "Ключ к API сервиса не верен или не действует"
 
-#: bp-mail-checker.php:124
+#: bpmvp-email-validator.php:193
 msgid "Task Accepted"
 msgstr ""
 
-#: bp-mail-checker.php:126
+#: bpmvp-email-validator.php:195
 msgid "Email Address Missing"
-msgstr "Не указан адрес эл.почты"
+msgstr "Адрес не указан"
 
-#: bp-mail-checker.php:127
+#: bpmvp-email-validator.php:196
 msgid "Service Unavailable"
 msgstr "Сервис недоступен. Пожалуйста, попробуйте позже."
