@@ -24,37 +24,36 @@ msgid "Email Validator options"
 msgstr "Einstellungen"
 
 #: bp-mail-checker.php:34
-msgid "API key"
+msgid "API Key"
 msgstr ""
 
 #: bp-mail-checker.php:50
 msgid ""
-"Please, enter your API key. You can get one at <a href=\"https://www.email-"
-"validator.net/dashboard/index.html\" target=\"_blank\">BytePlant</a>"
+"Please enter your API key. You can register for an API key here: <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">Byteplant Email Validator API</a>"
 msgstr ""
-"Bitte hier Ihren API key einfügen. Den API key erhakten Sie auf der Seite "
-"<a href=\"https://www.email-validator.net/dashboard/index.html\" target="
-"\"_blank\">BytePlant</a>"
+"Bitte geben Sie Ihren API Key ein. Sie können sich hier für einen API Key registrieren: "
+"<a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target="
+"\"_blank\">Byteplant Email Validator API</a>"
 
 #: bp-mail-checker.php:57
-msgid "BytePlant Email Validator"
+msgid "Byteplant Email Validator"
 msgstr "Email-Adressvalidierung von Byteplant"
 
 #: bp-mail-checker.php:67
-msgid "Validate Single Email"
-msgstr "eine Email-Adresse prüfen"
+msgid "Validate Email Address"
+msgstr "Email-Adresse prüfen"
 
 #: bp-mail-checker.php:68
-msgid "Use this section to validate single email adress"
-msgstr "Hier können Sie eine Email-Adresse zur Überprüfung eingeben"
+msgid "Please enter an email address to validate."
+msgstr "Bitte geben Sie eine Email-Adresse zur Überprüfung ein."
 
 #: bp-mail-checker.php:72
-msgid "Email to validate"
+msgid "Email address to validate"
 msgstr "Email-Adresse zur Überprüfung"
 
 #: bp-mail-checker.php:81
 msgid "Validate"
-msgstr "überprüfen"
+msgstr "Überprüfen"
 
 #: bp-mail-checker.php:99
 msgid "OK - Valid Address"
@@ -134,18 +133,16 @@ msgstr "Maximale Anzahl der Überprüfungen überschritten"
 
 #: bp-mail-checker.php:123
 msgid "API Key Invalid or Depleted"
-msgstr "API key falsch oder aufgebraucht"
+msgstr "API Key ungültig oder kein Guthaben"
 
 #: bp-mail-checker.php:124
 msgid "Task Accepted"
 msgstr "Auftrag angenommen"
 
 #: bp-mail-checker.php:126
-msgid "No email given"
-msgstr "Email-Adresse  angegebenen"
+msgid "Email Address Missing"
+msgstr "Keine Email-Adresse angegeben"
 
 #: bp-mail-checker.php:127
-msgid "Service unavailable. Please, try later."
-msgstr ""
-"Dieser Dienst ist derzeit nicht verfügbar, bitte versuchen Sie es später "
-"noch einmal. "
+msgid "Service Unavailable"
+msgstr "Der Dienst ist derzeit nicht verfügbar"

@@ -25,32 +25,29 @@ msgid "Email Validator options"
 msgstr "Настройки"
 
 #: bp-mail-checker.php:34
-msgid "API key"
+msgid "API Key"
 msgstr "Ключ API"
 
 #: bp-mail-checker.php:50
 msgid ""
-"Please, enter your API key. You can get one at <a href=\"https://www.email-"
-"validator.net/dashboard/index.html\" target=\"_blank\">BytePlant</a>"
+"Please enter your API key. You can register for an API key here: <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">Byteplant Email Validator API</a>"
 msgstr ""
-"Пожалуйста, введите ваш ключ. Вы можете получить ключ на сайте <a href="
-"\"https://www.email-validator.net/dashboard/index.html\" target=\"_blank"
-"\">BytePlant</a>"
+"Пожалуйста, введите ваш ключ. Вы можете получить ключ на сайте <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">Byteplant Email Validator API</a>"
 
 #: bp-mail-checker.php:57
-msgid "BytePlant Email Validator"
+msgid "Byteplant Email Validator"
 msgstr ""
 
 #: bp-mail-checker.php:67
-msgid "Validate Single Email"
+msgid "Validate Email Address"
 msgstr "Проверить один адрес"
 
 #: bp-mail-checker.php:68
-msgid "Use this section to validate single email adress"
+msgid "Please enter an email address to validate."
 msgstr "Используйте этот раздел для проверки отдельных адресов"
 
 #: bp-mail-checker.php:72
-msgid "Email to validate"
+msgid "Email address to validate"
 msgstr "Адрес почты для проверки"
 
 #: bp-mail-checker.php:81
@@ -142,9 +139,9 @@ msgid "Task Accepted"
 msgstr ""
 
 #: bp-mail-checker.php:126
-msgid "No email given"
+msgid "Email Address Missing"
 msgstr "Не указан адрес эл.почты"
 
 #: bp-mail-checker.php:127
-msgid "Service unavailable. Please, try later."
+msgid "Service Unavailable"
 msgstr "Сервис недоступен. Пожалуйста, попробуйте позже."
