@@ -1,0 +1,14 @@
+.settings_page_byteplant_email_validator .bpmvp-card{
+	background-image:url('../img/byteplant_logo_298.gif');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding-bottom: 40px;
+}
+
+#bpmvp-list span{
+	float: right;
+}
+
+.bpmvp-loading.settings_page_byteplant_email_validator .bpmvp-card{
+	background-image:url('../img/byteplant_logo_298_working.gif');
+}
