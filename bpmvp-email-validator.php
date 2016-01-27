@@ -157,11 +157,11 @@ function bpmvp_options_page() {
 
 function bpmvp_scripts($hook){
 
-  	if ( 'settings_page_byteplant_email_validator' != $hook ) {
-   	return;
-   }
+	if ( 'settings_page_byteplant_email_validator' != $hook ) {
+		return;
+	}
 
-   wp_register_style( 'bpmvp_main_style', plugins_url('/css/bpmvp_style.css', __FILE__) );
+	wp_register_style( 'bpmvp_main_style', plugins_url('/css/bpmvp_style.css', __FILE__) );
 	wp_register_script('bpmvp_main_script', plugins_url('js/bpmvp_script.js', __FILE__), array( 'jquery', 'underscore' ), '1.0', true);
 
 	$js_vars = array();
@@ -195,12 +195,12 @@ function bpmvp_scripts($hook){
 	$js_vars[800] = __('Email Address Missing', 'bpmvp-email-validator');
 	$js_vars[801] = __('Service Unavailable', 'bpmvp-email-validator');
 
-	$js_vars['tpl'] = '<li><span><%- bp[status] %></span><%- mail %></li>';
+	$js_vars['tpl'] = '<li><span><%- bpmvp[status] %></span><%- mail %></li>';
 
 	$options = get_option( 'bpmvp_settings', array( 'bpmvp_api_key' => '' ) );
 	$js_vars['key'] = $options['bpmvp_api_key'];
 
-	wp_localize_script( 'bpmvp_main_script', 'bp', $js_vars);
+	wp_localize_script( 'bpmvp_main_script', 'bpmvp', $js_vars);
 	wp_enqueue_script( 'bpmvp_main_script' );
 	wp_enqueue_style('bpmvp_main_style' );
 }
@@ -263,7 +263,6 @@ function bpmvp_is_email_filter($passed, $email, $context){
 			'bpmvp_is_email_check' => 0
 		));
 		if($options['bpmvp_is_email_check'] ==1 && !bpmvp_validate_email($email) ){
-			// return __('Invalid email', 'bpmvp-email-validator');
 			return false;
 		}
 	} 

@@ -21,7 +21,7 @@
 				return this.show();
 			},
 			append: function(mail,status){
-				$(this.elList).append( _.template( bp.tpl, {mail:mail, status: status} ) );
+				$(this.elList).append( _.template( bpmvp.tpl, {mail:mail, status: status} ) );
 			},
 			request: function(mail){
 				if(!$('body').hasClass('bpmvp-loading')){
@@ -36,7 +36,7 @@
 						crossDomain: true,
 						data: {
 							EmailAddress: mail,
-							APIKey: bp.key,
+							APIKey: bpmvp.key,
 							scope: 'wpplugin',
 						},
 						dataType: 'json',
@@ -46,7 +46,7 @@
 						},
 						error: function(){
 							$('body').removeClass('bpmvp-loading');
-							self.setMessage(bp[801]);
+							self.setMessage(bpmvp[801]);
 						}
 					});
 				}
@@ -58,7 +58,7 @@
 				app.hide();
 				app.request( $('#bpmvp-mail').val() );
 			} else {
-				app.setMessage(bp[800]);
+				app.setMessage(bpmvp[800]);
 			}
 
 			return false;
