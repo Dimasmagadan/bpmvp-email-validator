@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-27 12:49+0300\n"
-"PO-Revision-Date: 2016-01-27 13:28+0300\n"
+"PO-Revision-Date: 2016-01-28 16:52+0300\n"
 "Last-Translator: Test <test@test.ru>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -29,21 +29,19 @@ msgstr "API key falsch oder aufgebraucht"
 
 #: bpmvp-email-validator.php:42
 msgid "Validate email on registration"
-msgstr "eine Email-Adresse prüfen"
+msgstr "eine Email-Adresse prüfen für Anmeldung"
 
 #: bpmvp-email-validator.php:50
 msgid "Validate email for comments"
-msgstr "eine Email-Adresse prüfen"
+msgstr "eine Email-Adresse prüfen für Kommentare"
 
 #: bpmvp-email-validator.php:58
 msgid "Hook to is_email() function"
-msgstr ""
+msgstr " die Funktion is_email() zuschalten"
 
 #: bpmvp-email-validator.php:105
 msgid ""
-"You can use <a href=\"http://www.email-validator.net\" target=\"_blank\">our "
-"service</a> to validate email addresses in real-time. The email address "
-"verification process includes these steps:<br>\n"
+"You can use <a href=\"http://www.email-validator.net\" target=\"_blank\">our service</a> to validate email addresses in real-time. The email address verification process includes these steps:<br>\n"
 "Syntax verification<br>\n"
 "DNS validation including MX record lookup<br>\n"
 "Disposable email address (DEA) detection<br>\n"
@@ -53,17 +51,16 @@ msgid ""
 "Catch-All testing<br>\n"
 "Greylisting detection"
 msgstr ""
+"\"Sie können <a href=\"http://www.email-validator.net\" target=\"_blank\">unseren Service</a> für real-time Prüfung der E-Mail Adressen. Diese Prüfung beinhaltet folgende Schritte:<br> \n"
+" Syntax verification<br>  DNS validation including MX record lookup<br>  Disposable email address (DEA) detection<br>  SMTP connectivity and availability checking<br>  Temporary unavailability detection<br>  Mailbox existence checking<br>  Catch-All testing<br>  Greylisting detection\""
 
 #: bpmvp-email-validator.php:117
 msgid ""
-"You can register for a <a href=\"http://www.email-validator.net/email-"
-"validation-online-api-get-free-trial.html\" target=\"_blank\">free API key</"
-"a> (limited to 100 address checks per month).<br>\n"
-"If you want to verify more than 100 addresses per month, please have a look "
-"at our pay-as-you-go pricing model and the <a href=\"http://www.email-"
-"validator.net/email-address-verification-pricing.html\" target=\"_blank"
-"\">subscription plan</a> we offer."
+"You can register for a <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">free API key</a> (limited to 100 address checks per month).<br>\n"
+"If you want to verify more than 100 addresses per month, please have a look at our pay-as-you-go pricing model and the <a href=\"http://www.email-validator.net/email-address-verification-pricing.html\" target=\"_blank\">subscription plan</a> we offer."
 msgstr ""
+"\"Bitte melden Sie sich an <a href=\"http://www.email-validator.net/email-validation-online-api-get-free-trial.html\" target=\"_blank\">free API key</a> (für maximal 100 E-Mail Adressen pro Monat).<br> \n"
+" Wie bieten Ihnen folgende Zahlungsmodelle an, wenn Sie mehr als 100 E_Mail Adressen pro Monat prüfen möchten <a href=\"http://www.email-validator.net/email-address-verification-pricing.html\" target=\"_blank\">subscription plan</a>.\""
 
 #: bpmvp-email-validator.php:137
 msgid "Validate Single Email"
@@ -83,55 +80,55 @@ msgstr "überprüfen"
 
 #: bpmvp-email-validator.php:168
 msgid "OK - Valid Address"
-msgstr ""
+msgstr "OK – gültige Adresse"
 
 #: bpmvp-email-validator.php:169
 msgid "OK - Catch-All Active"
-msgstr ""
+msgstr "OK –  aktive catch-all Funktion"
 
 #: bpmvp-email-validator.php:170
 msgid "OK - Catch-All Test Delayed"
-msgstr ""
+msgstr "OK - catch-all Prüfungsverzögerung"
 
 #: bpmvp-email-validator.php:172
 msgid "Local Address"
-msgstr ""
+msgstr "Lokale Adresse"
 
 #: bpmvp-email-validator.php:173
 msgid "IP Address Literal"
-msgstr ""
+msgstr "IP Adresse literale Zeichenfolge"
 
 #: bpmvp-email-validator.php:174
 msgid "Disposable Address"
-msgstr ""
+msgstr "Wegwerfadresse"
 
 #: bpmvp-email-validator.php:175
 msgid "Role Address"
-msgstr ""
+msgstr "Rollenbasierte Adresse (z.B. Admin)"
 
 #: bpmvp-email-validator.php:176 bpmvp-email-validator.php:186
 msgid "Server Unavailable"
-msgstr ""
+msgstr "Server nicht verfügbar oder erreichbar"
 
 #: bpmvp-email-validator.php:177 bpmvp-email-validator.php:187
 msgid "Address Unavailable"
-msgstr ""
+msgstr "Adresse nicht verfügbar oder erreichbar"
 
 #: bpmvp-email-validator.php:178
 msgid "Duplicate Address"
-msgstr ""
+msgstr "doppelt vergebene Adresse"
 
 #: bpmvp-email-validator.php:179
 msgid "Server Reject"
-msgstr ""
+msgstr "Server hat den Request abgelehnt"
 
 #: bpmvp-email-validator.php:181
 msgid "Bad Address"
-msgstr ""
+msgstr "falsche Adresse"
 
 #: bpmvp-email-validator.php:182
 msgid "Domain Not Fully Qualified"
-msgstr ""
+msgstr "Nicht vollständig qualifizierter Domänenname"
 
 #: bpmvp-email-validator.php:183
 msgid "MX Lookup Error"
@@ -171,6 +168,4 @@ msgstr ""
 
 #: bpmvp-email-validator.php:196
 msgid "Service Unavailable"
-msgstr ""
-"Dieser Dienst ist derzeit nicht verfügbar, bitte versuchen Sie es später "
-"noch einmal. "
+msgstr "Dieser Dienst ist derzeit nicht verfügbar, bitte versuchen Sie es später noch einmal. "
